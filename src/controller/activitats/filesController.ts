@@ -10,7 +10,7 @@ type TActivitats = {
   descripcion: string
   duracion: number
   capacidad: number
-  inscritos: Number
+  inscritos: number
   instructores: [string]
 }
 

@@ -7,7 +7,7 @@ import { getActivitiesController } from "../controller/activitats/getActivityCon
 
 const activitatsRoutes = express.Router()
 
-activitatsRoutes.get("/ :id", handlingFunction(getActivitiesController))
+activitatsRoutes.get("/:id", handlingFunction(getActivitiesController))
 activitatsRoutes.get("", handlingFunction(getAllActivitiesController))
 activitatsRoutes.post("", handlingFunction(createACtivityController))
 activitatsRoutes.post("/:idA/:idU", handlingFunction(joinActivityController))

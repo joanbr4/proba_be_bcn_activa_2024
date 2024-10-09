@@ -10,8 +10,11 @@ const userRoutes = express.Router()
 
 userRoutes.get("/:id", handlingFunction(getUserController))
 userRoutes.get("", handlingFunction(getAllUserController))
+
 userRoutes.post("", handlingFunction(postUserController))
+
 userRoutes.put("/:id", handlingFunction(updateUserController))
+
 userRoutes.delete("/:id", handlingFunction(deleteUserController))
 
 export { userRoutes }

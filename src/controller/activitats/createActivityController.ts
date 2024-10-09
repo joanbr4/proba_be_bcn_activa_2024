@@ -1,5 +1,5 @@
 import { Request, Response } from "express"
-import { generateId } from "../../utils/generateId"
+// import { generateId } from "../../utils/generateId"
 import { Activitats } from "../../db/db"
 
 const createACtivityController = async (req: Request, res: Response) => {

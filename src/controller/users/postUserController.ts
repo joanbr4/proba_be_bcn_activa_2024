@@ -1,9 +1,10 @@
 import { Request, Response } from "express"
 import { Users } from "../../db/db"
-import { generateId } from "../../utils/generateId"
+// import { generateId } from "../../utils/generateId"
 
 export const postUserController = async (req: Request, res: Response) => {
   const { nombre, apellidos, edad, email, password } = req.body
+  console.log(req.body.length)
   if (req.body.length != 5) {
     throw Error("Faltan datos del usuario!")
   }
