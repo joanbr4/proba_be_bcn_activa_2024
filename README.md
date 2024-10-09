@@ -38,6 +38,6 @@ Si sols volem arrancar el projecte:
 pnpm dev
 ```
 
-![NodeJs](https://nodejs.org/en/download/package-manager/current)
-![VSCode](https://code.visualstudio.com/download)
-![Docker Desktop](https://www.docker.com/products/docker-desktop/)
+[NodeJs](https://nodejs.org/en/download/package-manager/current)
+[VSCode](https://code.visualstudio.com/download)
+[Docker Desktop](https://www.docker.com/products/docker-desktop/)
